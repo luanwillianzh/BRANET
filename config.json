@@ -1,0 +1,70 @@
+{
+  "Version": "1.0.0",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://",
+  "Sms": "",
+  "EmailFeedback": "luanwillianzh@gmail.com",
+  "UrlContato": "https://t.me/luanw04",
+  "UrlTermos": "",
+  "CheckUser": "false",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "Servidor BR",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "vps.luanw.cf",
+      "CheckUser": "http://sua_api",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d29utptfdawge6.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "vigia.vivo.com.br",
+      "ProxyIP": "13.35.118.90",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "Tim",
+      "FLAG": "tim",
+      "Payload": "GET wss://www.alura.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "www.alura.com.br",
+      "ProxyIP": "www.alura.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Claro",
+      "FLAG": "claro",
+      "Payload": "GET wss://go.kaltura.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "go.kaltura.com",
+      "TlsIP": "go.kaltura.com",
+      "ProxyIP": "go.kaltura.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "www.hbogo.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }
+  ]
+}
