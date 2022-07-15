@@ -1,7 +1,7 @@
 {
-  "Version": "1.0.0",
-  "ReleaseNotes": "",
-  "UrlUpdate": "https://",
+  "Version": "1.0.1",
+  "ReleaseNotes": "https://raw.githubusercontent.com/luanwillianzh/BRANET/main/config.json",
+  "UrlUpdate": "",
   "Sms": "",
   "EmailFeedback": "luanwillianzh@gmail.com",
   "UrlContato": "https://t.me/luanw04",
@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor BR",
+      "Name": "BRANET",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "vps.luanw.cf",
