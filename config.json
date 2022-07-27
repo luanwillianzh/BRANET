@@ -1,7 +1,7 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "https://raw.githubusercontent.com/luanwillianzh/BRANET/main/config.json",
-  "UrlUpdate": "",
+  "ReleaseNotes": "",
+  "UrlUpdate": "https://raw.githubusercontent.com/luanwillianzh/BRANET/main/config.json",
   "Sms": "",
   "EmailFeedback": "luanwillianzh@gmail.com",
   "UrlContato": "https://t.me/luanw04",
