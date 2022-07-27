@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "https://raw.githubusercontent.com/luanwillianzh/BRANET/main/config.json",
   "UrlUpdate": "",
   "Sms": "",
@@ -32,7 +32,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: d29utptfdawge6.cloudfront.net[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
       "TlsIP": "vigia.vivo.com.br",
-      "ProxyIP": "13.35.118.90",
+      "ProxyIP": "52.85.213.82",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
